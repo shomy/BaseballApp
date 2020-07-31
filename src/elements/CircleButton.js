@@ -1,5 +1,6 @@
 import React from 'react';
 import {StyleSheet, View , Text} from 'react-native';
+import * as Font from 'expo-font';
 
 class CircleButton extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class CircleButton extends React.Component {
 
     return(
       <View style={[styles.circleButton,style,{backgroundColor:bgColor}]}>
-        <Text style={[styles.circleButtonTitle,{color:textColor}]}>
+        <Text style={[styles.circleButtonTitle,style,{color:textColor}]}>
           {this.props.children}
         </Text>
       </View>

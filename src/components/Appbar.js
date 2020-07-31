@@ -6,7 +6,7 @@ class Appbar extends React.Component {
     return(
       <View style={styles.appbar}>
         <View>
-          <Text style={styles.appbarTitle}>memo</Text>
+          <Text style={styles.appbarTitle}>Sales Job Board</Text>
         </View>
       </View>
     );
@@ -21,10 +21,10 @@ const styles = StyleSheet.create({
       right:0,
       height:60,
       paddingTop: 30,
-      backgroundColor: '#6a5f8f',
+      backgroundColor: '#2b1f53',
       justifyContent:'center',
       alignItems: 'center',
-      shadowColor:'#000000',
+      shadowColor:'#3c3b3b',
       shadowOffset:{width:0,height:0},
       shadowOpacity:0.5,
       shadowRadius:3,

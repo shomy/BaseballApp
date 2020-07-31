@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
     padding:18,
     borderBottomWidth:1,
     borderBottomColor:'#cdcdd0',
-    backgroundColor:'#e1e0e4'
+    backgroundColor:'#f2f0f7'
   },
   memoListTitle:{
     fontSize:18,
